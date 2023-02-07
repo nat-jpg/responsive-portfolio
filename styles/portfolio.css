@@ -133,3 +133,9 @@ body {
     font-size: 18px;
     text-align: justify;
 }
+.about-content {
+    margin-top: 4rem;
+}
+.social-links #icon{
+    padding-top: 50px;
+}
