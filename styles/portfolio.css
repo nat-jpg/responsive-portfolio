@@ -107,6 +107,13 @@ body {
     align-items: center;
     justify-content: center; 
 }
+.socials a {
+    color: var(--font-color);
+
+}
+.social-links a {
+    color: var(--font-color);
+}
 #icon {
     margin: 10px;
 }
