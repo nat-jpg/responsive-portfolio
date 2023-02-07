@@ -38,7 +38,6 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: brightness(80%);
 }
 .hero-content {
     position: relative;
@@ -70,4 +69,7 @@ h2 {
     margin-top: 5rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+}
+.nav-link {
+    font-family: Arial, Helvetica, sans-serif 
 }
