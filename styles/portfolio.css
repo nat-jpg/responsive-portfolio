@@ -139,3 +139,13 @@ body {
 .social-links #icon{
     padding-top: 50px;
 }
+.button {
+    margin-top: 5rem;
+}
+#about-box {
+    margin: 10px;
+    padding-top: 20px;
+}
+#mini-gallery {
+    padding: 60px;
+}
