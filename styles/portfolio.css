@@ -1,7 +1,61 @@
 body {
-    background-color: lightslategrey;
+    margin: 0;
+    padding: 0;
+    
 }
 h1 {
     color: white;
-    font-family: mrs-eaves, serif;
+    font-family: ivyjournal, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 0;
+    text-align: right;
+}
+h2 {
+    color: white;
+    font-family: ivyjournal, sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    text-align: right;
+}
+.hero {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero::before {
+    content: "";
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/066/252/original/52513610534_912e545002_k-2.jpg?1675741223);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(80%);
+}
+.hero-content {
+    position: relative;
+    text-align: center;
+}
+.btn-branding {
+    color: white;
+    font-family: ivyjournal, sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+    margin-top: 40px;
+
+}
+.btn-branding:hover {
+    opacity: 80%;
 }
