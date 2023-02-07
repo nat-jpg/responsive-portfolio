@@ -239,3 +239,6 @@ nav li {
         margin-bottom: 1px;
     }
 }
+.signature a {
+    color: var(--font-color);
+}
