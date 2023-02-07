@@ -89,17 +89,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-@media (max-width: 900px) {
-    .name {
-        font-size: 40px;
-    }
-    .hero-content {
-        padding: 20px;
-    }
-    #gallery {
-        margin-top: 2rem;
-    }
-}
+
 .socials {
     font-size: 20px;
     text-align: center;
@@ -227,4 +217,25 @@ nav li {
 }
 #navbar-dark a:hover {
     opacity: 60%;
+}
+@media (max-width: 900px) {
+    .name {
+        font-size: 40px;
+    }
+    .hero-content {
+        padding: 20px;
+    }
+    #gallery {
+        margin-top: 2rem;
+    }
+    .button {
+        margin-top: 1.5rem;
+    }
+    #mini-gallery {
+        padding: 20px;
+    }
+    .about-content p {
+        font-size: 14px;
+        margin-bottom: 1px;
+    }
 }
