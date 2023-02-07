@@ -43,17 +43,23 @@ h2 {
 .hero-content {
     position: relative;
     text-align: center;
+    margin: 0.625rem;
 }
 .btn-branding {
     color: white;
     font-family: ivyjournal, sans-serif;
     font-weight: 200;
     font-size: 20px;
-    border: 1px solid;
-    padding: 10px;
     cursor: pointer;
     transition: ease-in-out 1s;
-    margin-top: 40px;
+    margin-bottom: 3rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .btn-branding:hover {
