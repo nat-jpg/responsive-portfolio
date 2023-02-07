@@ -109,3 +109,12 @@ h2 {
     font-size: 14px;
     padding-bottom: 30px;
 }
+.about-text {
+    font-family: ivyjournal, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
